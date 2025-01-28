@@ -1,0 +1,32 @@
+plugins {
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+
+application {
+    mainClass = 'main.Game'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'main.Game'
+        )
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+}
