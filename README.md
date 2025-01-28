@@ -1,5 +1,10 @@
 # Java 2D Game Engine 
 
+> [!NOTE]
+> 
+> I. FOR PROJECT STRUCTURE, SEE [DIRECTORY.txt](DIRECTORY.txt)
+> 
+> II. FOR PROJECT PLAN, SEE [TODO.md](TODO.md)
 
 ## Usage
 
