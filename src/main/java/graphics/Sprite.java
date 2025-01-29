@@ -9,4 +9,10 @@ public class Sprite {
     private int y;
     private Image image;
 
+
+    public Sprite(String path) {
+        this.image = Toolkit.getDefaultToolkit().getImage(path);
+        this.width = image.getWidth(null);
+        this.height = image.getHeight(null);
+    }
 }
