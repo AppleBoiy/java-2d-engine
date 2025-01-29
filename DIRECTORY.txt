@@ -1,10 +1,8 @@
-src/
+src
 └── main
     ├── java
     │   ├── audio
     │   │   └── AudioManager.java
-    │   ├── config
-    │   │   └── ConfigurationManager.java
     │   ├── entities
     │   │   ├── Enemy.java
     │   │   ├── GameObject.java
@@ -14,26 +12,29 @@ src/
     │   ├── graphics
     │   │   ├── Animation.java
     │   │   ├── Renderer.java
-    │   │   └── Sprite.java
+    │   │   ├── Sprite.java
+    │   │   ├── Texture.java
+    │   │   └── TextureManager.java
     │   ├── input
     │   │   └── InputManager.java
     │   ├── levels
-    │   │   ├── Level.java
+    │   │   ├── Scene.java
     │   │   ├── Tile.java
     │   │   └── TileMap.java
     │   ├── main
     │   │   ├── Game.java
-    │   │   ├── GameLoop.java
-    │   │   └── Timer.java
+    │   │   └── GameLoop.java
     │   ├── physics
     │   │   ├── CollisionManager.java
     │   │   └── PhysicsEngine.java
     │   └── utils
+    │       ├── ConfigurationManager.java
     │       ├── Logger.java
+    │       ├── Timer.java
     │       └── Vector.java
     └── resources
         ├── images
         ├── levels
         └── sounds
 
-16 directories, 21 files
+15 directories, 23 files
